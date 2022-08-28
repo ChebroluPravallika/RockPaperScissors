@@ -1,0 +1,21 @@
+.RulesBtn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.closeBtn {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+  justify-content: flex-end;
+}
+
+.Rules {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+}
