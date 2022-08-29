@@ -3,6 +3,10 @@ import styled from 'styled-components'
 export const Image = styled.img`
   height: 150px;
   width: 150px;
+  @media (max-width: 290px) {
+    height: 100px;
+    width: 100px;
+  }
 `
 
 export const Button = styled.button`
